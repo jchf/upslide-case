@@ -1,0 +1,11 @@
+﻿source;type;total_opportunities;nb_won;nb_lost;win_rate_pct;total_arr_won;avg_deal_size;arr_per_opportunity;avg_sales_cycle_won_days;pct_of_total_arr
+;new business;2;0;2;0;0;;0;;0
+;upsell;1;1;0;100;0;0;0;77;0
+cold prospection;new business;83;39;44;46,98795181;715000;18333;8614;53;0
+cold prospection;upsell;22;8;14;36,36363636;199500;24937;9068;54;0
+event;new business;32;12;20;37,5;332000;27666;10375;48;0
+event;upsell;12;3;9;25;78000;26000;6500;38;0
+marketing;new business;52;21;31;40,38461538;460000;21904;8846;58;0
+marketing;upsell;20;5;15;25;130500;26100;6525;70;0
+referral;new business;24;8;16;33,33333333;246000;30750;10250;57;0
+referral;upsell;4;2;2;50;21500;10750;5375;62;0

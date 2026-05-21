@@ -1,0 +1,11 @@
+﻿salesperson_id;salesperson_name;salesperson_office;quarter_target;total_opportunities_closed;nb_deals_won;nb_deals_lost;nb_new_business_won;nb_upsell_won;total_arr_won;arr_new_business;arr_upsell;avg_deal_size;quota_attainment_pct;gap_vs_target;is_underperforming;win_rate_pct;win_rate_new_business_pct;win_rate_upsell_pct;avg_sales_cycle_won_days;avg_sales_cycle_lost_days;avg_activities_per_opp;avg_activities_per_won_deal;avg_activities_per_lost_deal;total_calls;total_meetings_online;total_meetings_f2f
+SP001;Salesperson FR 1;FRANCE;85000;23;6;17;5;1;65000;54000;11000;10833;76,47058824;-20000;1;26,08695652;29,41176471;16,66666667;59;63;3;3;3;38;15;9
+SP002;Salesperson FR 2;FRANCE;75000;24;10;14;7;3;104000;81500;22500;10400;138,6666667;29000;0;41,66666667;41,17647059;42,85714286;55;60;2;3;2;37;18;4
+SP003;Salesperson FR 3;FRANCE;70000;37;12;25;9;3;198000;136500;61500;16500;282,8571429;128000;0;32,43243243;33,33333333;30;51;59;3;4;2;56;32;13
+SP004;Salesperson UK 1;UK;115000;25;14;11;12;2;207500;179000;28500;14821;180,4347826;92500;0;56;52,17391304;100;66;55;2;2;2;27;15;7
+SP005;Salesperson UK 2;UK;105000;17;6;11;5;1;102000;78000;24000;17000;97,14285714;-3000;1;35,29411765;35,71428571;33,33333333;36;43;1;1;2;9;6;4
+SP006;Salesperson UK 3;UK;95000;20;11;9;9;2;239000;195500;43500;21727;251,5789474;144000;0;55;56,25;50;55;58;2;2;2;27;9;4
+SP007;Salesperson US 1;US;145000;61;20;41;17;3;782500;619000;163500;39125;539,6551724;637500;0;32,78688525;36,95652174;20;62;58;1;2;1;56;25;15
+SP008;Salesperson DE/US Mover;US;80000;26;13;13;10;3;344000;287000;57000;26461;430;264000;0;50;55,55555556;37,5;48;52;2;2;2;41;11;6
+SP009;Salesperson Germany 1;GERMANY;45000;1;0;1;0;0;0;0;0;;0;-45000;1;0;0;;;12;2;;2;2;0;0
+SP010;Salesperson Singapore 1;SINGAPORE;35000;18;7;11;6;1;140500;122500;18000;20071;401,4285714;105500;0;38,88888889;42,85714286;25;39;56;2;2;3;30;12;5
