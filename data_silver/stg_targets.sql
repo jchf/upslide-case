@@ -8,7 +8,7 @@ SELECT
     TRY_CAST(quarter_target AS DECIMAL(18,2)) AS quarter_target
 FROM
     OPENROWSET(
-        BULK 'https://devdataopsdatalake.dfs.core.windows.net/devdataopsdatalake/test/targets.csv',
+        BULK '../devdataopsdatalake/test/targets.csv',
         FORMAT = 'CSV',
         PARSER_VERSION = '2.0',
         HEADER_ROW = TRUE

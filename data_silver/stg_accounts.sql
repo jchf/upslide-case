@@ -7,7 +7,7 @@ SELECT
     account_name
 FROM
     OPENROWSET(
-        BULK 'httpsdevdataopsdatalake.dfs.core.windows.netdevdataopsdatalaketestaccounts.csv',
+        BULK '../dataopsdatalake/test/accounts.csv',
         FORMAT = 'CSV',
         PARSER_VERSION = '2.0',
         HEADER_ROW = TRUE

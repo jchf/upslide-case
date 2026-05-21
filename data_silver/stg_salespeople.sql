@@ -7,7 +7,7 @@ SELECT
     UPPER(TRIM(salesperson_office)) AS salesperson_office
 FROM
     OPENROWSET(
-        BULK 'https://devdataopsdatalake.dfs.core.windows.net/devdataopsdatalake/test/salespeople.csv',
+        BULK '../devdataopsdatalake/test/salespeople.csv',
         FORMAT = 'CSV',
         PARSER_VERSION = '2.0',
     HEADER_ROW = TRUE

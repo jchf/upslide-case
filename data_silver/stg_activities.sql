@@ -19,7 +19,7 @@ SELECT
     END AS activity_date
 FROM
     OPENROWSET(
-        BULK 'https://devdataopsdatalake.dfs.core.windows.net/devdataopsdatalake/test/activities.csv',
+        BULK '../devdataopsdatalake/test/activities.csv',
         FORMAT = 'CSV',
         PARSER_VERSION = '2.0',
         HEADER_ROW = TRUE

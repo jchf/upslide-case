@@ -51,7 +51,7 @@ SELECT
     closed_date AS closed_date_raw
 FROM
     OPENROWSET(
-        BULK 'https://devdataopsdatalake.dfs.core.windows.net/devdataopsdatalake/test/opportunities.csv',
+        BULK '../devdataopsdatalake/test/opportunities.csv',
         FORMAT = 'CSV',
         PARSER_VERSION = '2.0',
         HEADER_ROW = TRUE
